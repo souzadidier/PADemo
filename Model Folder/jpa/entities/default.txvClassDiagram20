@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhgcjfmuji-p6fuqt">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="jdt:e_class:src:jpa.entities.PurchaseOrder">
+			<property name="bounds" value="162,1101,200,788"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.PurchaseOrder.customerId-&gt;jpa.entities.Customer">
+				<property name="sourceAnchor" value="367,1854"/>
+				<property name="targetAnchor" value="669,2040"/>
+				<property name="bendpoints" value="407,2040"/>
+				<property name="smooth_bendpoints" value="407,2040"/>
+				<property name="location_set_by_user" value="true"/>
+				<reference referencedUin="label:&lt;&lt;EJB Relation&gt;&gt;:com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.PurchaseOrder.customerId-&gt;jpa.entities.Customer">
+					<property name="bounds" value="412,2028,125,24"/>
+				</reference>
+				<reference referencedUin="label:$ejbSupplierCardinalityText:com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.PurchaseOrder.customerId-&gt;jpa.entities.Customer">
+					<property name="bounds" value="374,1854,10,24"/>
+				</reference>
+				<reference referencedUin="label:$ejbClientCardinalityText:com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.PurchaseOrder.customerId-&gt;jpa.entities.Customer">
+					<property name="bounds" value="647,2013,12,24"/>
+				</reference>
+			</reference>
+			<reference referencedUin="com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.PurchaseOrder.productId-&gt;jpa.entities.Product">
+				<property name="sourceAnchor" value="353,1106"/>
+				<property name="targetAnchor" value="409,848"/>
+				<reference referencedUin="label:$ejbSupplierCardinalityText:com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.PurchaseOrder.productId-&gt;jpa.entities.Product">
+					<property name="bounds" value="342,1077,10,24"/>
+				</reference>
+				<reference referencedUin="label:$ejbClientCardinalityText:com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.PurchaseOrder.productId-&gt;jpa.entities.Product">
+					<property name="bounds" value="388,853,12,24"/>
+				</reference>
+				<reference referencedUin="label:&lt;&lt;EJB Relation&gt;&gt;:com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.PurchaseOrder.productId-&gt;jpa.entities.Product">
+					<property name="bounds" value="251,965,125,24"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:jpa.entities.Product">
+			<property name="bounds" value="395,15,200,828"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.Product.manufacturerId-&gt;jpa.entities.Manufacturer">
+				<property name="sourceAnchor" value="454,848"/>
+				<property name="targetAnchor" value="454,976"/>
+				<reference referencedUin="label:$ejbClientCardinalityText:com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.Product.manufacturerId-&gt;jpa.entities.Manufacturer">
+					<property name="bounds" value="457,942,12,24"/>
+				</reference>
+				<reference referencedUin="label:$ejbSupplierCardinalityText:com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.Product.manufacturerId-&gt;jpa.entities.Manufacturer">
+					<property name="bounds" value="457,854,10,24"/>
+				</reference>
+				<reference referencedUin="label:&lt;&lt;EJB Relation&gt;&gt;:com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.Product.manufacturerId-&gt;jpa.entities.Manufacturer">
+					<property name="bounds" value="457,900,125,24"/>
+				</reference>
+			</reference>
+			<reference referencedUin="com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.Product.productCode-&gt;jpa.entities.ProductCode">
+				<property name="sourceAnchor" value="400,424"/>
+				<property name="targetAnchor" value="210,424"/>
+				<reference referencedUin="label:$ejbSupplierCardinalityText:com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.Product.productCode-&gt;jpa.entities.ProductCode">
+					<property name="bounds" value="380,397,10,24"/>
+				</reference>
+				<reference referencedUin="label:$ejbClientCardinalityText:com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.Product.productCode-&gt;jpa.entities.ProductCode">
+					<property name="bounds" value="220,397,12,24"/>
+				</reference>
+				<reference referencedUin="label:&lt;&lt;EJB Relation&gt;&gt;:com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.Product.productCode-&gt;jpa.entities.ProductCode">
+					<property name="bounds" value="243,397,125,24"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:jpa.entities.Manufacturer">
+			<property name="bounds" value="412,971,200,1048"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:jpa.entities.MicroMarket">
+			<property name="bounds" value="884,5,200,568"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:jpa.entities.Customer">
+			<property name="bounds" value="664,931,200,1128"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.Customer.discountCode-&gt;jpa.entities.DiscountCode">
+				<property name="sourceAnchor" value="769,936"/>
+				<property name="targetAnchor" value="769,678"/>
+				<reference referencedUin="label:$ejbSupplierCardinalityText:com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.Customer.discountCode-&gt;jpa.entities.DiscountCode">
+					<property name="bounds" value="772,902,10,24"/>
+				</reference>
+				<reference referencedUin="label:$ejbClientCardinalityText:com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.Customer.discountCode-&gt;jpa.entities.DiscountCode">
+					<property name="bounds" value="772,684,12,24"/>
+				</reference>
+				<reference referencedUin="label:&lt;&lt;EJB Relation&gt;&gt;:com.borland.peloton.j2ee.ejb:EJBRelation::jpa.entities.Customer.discountCode-&gt;jpa.entities.DiscountCode">
+					<property name="bounds" value="772,795,125,24"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:jpa.entities.ProductCode">
+			<property name="bounds" value="5,115,200,608"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:jpa.entities.DiscountCode">
+			<property name="bounds" value="664,165,200,508"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>
